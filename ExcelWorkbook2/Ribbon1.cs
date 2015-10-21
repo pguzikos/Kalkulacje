@@ -34,8 +34,9 @@ namespace ExcelWorkbook2
             //   Globals.Arkusz1.list1.DataSource = dt;
             Globals.Arkusz1.list1.AutoSetDataBoundColumnHeaders = true;
             Globals.Arkusz1.list1.SetDataBinding(dt);//, "id", "Numer Zapyania", "Indeks XL", "Numer Rysunku", "Klient", "Wielkosc Zamowienia", "Wielkosc Produkcji", "Grubosc Materialu", "Rodzaj Materialu", "Wymiar X", "Wymiar Y", "Rewizja");
-            Globals.Arkusz1.list1.columns
+           // Globals.Arkusz1.list1.columns
             Globals.Arkusz1.list1.Disconnect();
+           
             // Bind the list object to the Customers table.
             //list1.AutoSetDataBoundColumnHeaders = true;
             //list1.DataSource = dt;
